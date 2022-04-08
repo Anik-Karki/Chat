@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guff</title>
+  </head>
+  <body>
+    <h1>auu Guff garum</h1>
+    <div class="container">
+      <div class="sidebar">
+        <input
+          type="text"
+          id="myInput"
+          onkeyup="search()"
+          placeholder="Search ."
+        />
+        <ul id="myList"></ul>
+      </div>
+      <div class="chat">
+        <div class="messages">
+          <ul class="message-list">
+            <li class="message-item item-primary">Anik hello! everyone</li>
+          </ul>
+          <div class="message-input">
+            <input
+              type="text"
+              class="input-msg"
+              placeholder="your message."
+            />
+            <button type="button" class="btn">Send</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="server.js"></script>
+  </body>
+</html>
